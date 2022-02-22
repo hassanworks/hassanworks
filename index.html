@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <title>Hassan Waheed</title>
+</head>
+
+<body>
+
+    <!-------------- SIDEBAR -------------->
+    <section class="sidebar">
+        <div class="sidebar text-center">
+            <div class="hexagon">
+                <!-- <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                </div> -->
+            </div>
+            <div class="person-image">
+                <img src="images/hassan.jpg" alt="image">
+            </div>
+            <div class="person-name">
+                <h2>Muhammad Hassan Waheed</h2>
+            </div>
+            <div class="person-expertise">
+                <h3>Web Developer</h3>
+            </div>
+            <div class="person-description w-75">
+                <p>I am a JavaScript developer with hands on experience in Angular, NodeJS, and basic understanding of React. I have 2
+                years of experience in Web Development. I can also create pixel perfect/mobile responsive websites using any framework.</p>
+            </div>
+            <div class="person-contact-button btn btn-dark">
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="person-social-icons">
+                <ul class="d-flex justify-content-center">
+                    <li><a href="https://www.linkedin.com/in/hassan-waheed-b8b3071a8/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/hassanwaheed96"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-------------- TOP NAVBAR -------------->
+    <header class="right">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="banner">
+            <img src="images/banner.png" alt="banner">
+        </div>
+    </header>
+
+    <!-------------- PORTFOLIO SECTION -------------->
+    <!-- <section class="portfolio right" id="portfolio">
+        <div class="portfolio-content right-content">
+            <h2>PORTFOLIO</h2>
+            <div class="portfolio-categories-button btn">
+                <button class="box-item filter-button selected" data-category="all">Show All</button>
+            </div>
+            <div class="portfolio-categories-button btn">
+                <button class="box-item filter-button" data-category="appDevelopment">App Development</button>
+            </div>
+            <div class="portfolio-categories-button btn">
+                <button class="box-item filter-button" data-category="webDevelopment">Web Development</button>
+            </div>
+            <div class="portfolio-categories-button btn">
+                <button class="box-item filter-button" data-category="graphicDesign">Graphic Design</button>
+            </div>
+            <div class="portfolio-icons row">
+                <div class="CompanyDirectoryItem portfolio-card-content col-xl-4 col-lg-6 col-md-6 col-sm-8"
+                    data-name="all, appDevelopment">
+                    <div class="portfolio-card">
+                        <div class="card">
+                            <img class="card-img-top" src="images/portfolio-icon-1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">dsadfsafas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="CompanyDirectoryItem portfolio-card-content col-xl-4 col-lg-6 col-md-6 col-sm-8"
+                    data-name="all, appDevelopment">
+                    <div class="portfolio-card">
+                        <div class="card">
+                            <img class="card-img-top" src="images/portfolio-icon-2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">dsadfsafas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="CompanyDirectoryItem portfolio-card-content col-xl-4 col-lg-6 col-md-6 col-sm-8"
+                    data-name="all, webDevelopment">
+                    <div class="portfolio-card">
+                        <div class="card">
+                            <img class="card-img-top" src="images/portfolio-icon-3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">dsadfsafas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="CompanyDirectoryItem portfolio-card-content col-xl-4 col-lg-6 col-md-6 col-sm-8"
+                    data-name="all, webDevelopment">
+                    <div class="portfolio-card">
+                        <div class="card">
+                            <img class="card-img-top" src="images/portfolio-icon-4.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">dsadfsafas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="CompanyDirectoryItem portfolio-card-content col-xl-4 col-lg-6 col-md-6 col-sm-8"
+                    data-name="all, graphicDesign">
+                    <div class="portfolio-card">
+                        <div class="card">
+                            <img class="card-img-top" src="images/portfolio-icon-5.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">dsadfsafas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="CompanyDirectoryItem portfolio-card-content col-xl-4 col-lg-6 col-md-6 col-sm-8"
+                    data-name="all, graphicDesign">
+                    <div class="portfolio-card">
+                        <div class="card">
+                            <img class="card-img-top" src="images/portfolio-icon-6.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">dsadfsafas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section> -->
+
+    <!-------------- ABOUT SECTION -------------->
+    <!-- <section class="about right" id="about">
+        <div class="about-content right-content col-lg-10 col-md-10 col-sm-12 col-xs-12">
+            <div class="about-heading">
+                <h2>ABOUT</h2>
+            </div>
+            <div class="about-para">
+                <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make
+                    a type specimen book</p>
+                <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                    make
+                    a type specimen book</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-------------- EDUCATION AND SKILL SECTION -------------->
+    <section class="education right" id="education">
+        <div class="education-row row">
+            <div class="education-content right-content col-xl-4 col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                <div class="education-heading">
+                    <h2>EDUCATION</h2>
+                </div>
+                <div class="education-card">
+                    <div class="card">
+                        <h5 class="card-title">SZABIST Islamabad</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">BSCS</h6>
+                        <h5 class="card-bottom">2016-2020</h5>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="card">
+                        <h5 class="card-title">GSIS</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">A-Levels</h6>
+                        <h5 class="card-bottom">2014-2016</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-content col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="skills-heading">
+                    <h2>SKILLS</h2>
+                </div>
+                <div class="skill row">
+                    <h3 class="col-md-4 col-sm-4">HTML</h3>
+                    <div class="progress col-md-6 col-sm-6">
+                        <div class="progress-bar html" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill row">
+                    <h3 class="col-md-4 col-sm-4">CSS</h3>
+                    <div class="progress col-md-6 col-sm-6">
+                        <div class="progress-bar css" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill row">
+                    <h3 class="col-md-4 col-sm-4">Bootstrap</h3>
+                    <div class="progress col-md-6 col-sm-6">
+                        <div class="progress-bar bootstrap" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill row">
+                    <h3 class="col-md-4 col-sm-4">JavaScript</h3>
+                    <div class="progress col-md-6 col-sm-6">
+                        <div class="progress-bar js" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill row">
+                    <h3 class="col-md-4 col-sm-4">Angular</h3>
+                    <div class="progress col-md-6 col-sm-6">
+                        <div class="progress-bar angular" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill row">
+                    <h3 class="col-md-4 col-sm-4">NodeJS</h3>
+                    <div class="progress col-md-6 col-sm-6">
+                        <div class="progress-bar node" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill row">
+                    <h3 class="col-md-4 col-sm-4">Git</h3>
+                    <div class="progress col-md-6 col-sm-6">
+                        <div class="progress-bar git" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------- SERVICES SECTION -------------->
+    <section class="services right" id="experience">
+        <div class="services-heading right-content">
+            <h2>Work Experience</h2>
+        </div>
+        <div class="services-row row">
+            <div class="services-content right-content col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="services-card">
+                    <div class="card">
+                        <h5 class="card-title">Web Developer</h5>
+                        <h6 class="card-bottom">Cloudtek</h6>
+                        <h5 class="card-subtitle mb-2 text-muted">May, 2022 – Present</h5>
+                        <h5 class="card-subtitle mb-2 text-muted">Working as a full stack web developer. Mostly working on creating APIs in NodeJS and integrating APIs in the client side
+                        using Angular</h5>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-title">Web Developer</h5>
+                        <h6 class="card-bottom">Gubloo Tech</h6>
+                        <h5 class="card-subtitle mb-2 text-muted">Feb, 2021 – May, 2022</h5>
+                        <h5 class="card-subtitle mb-2 text-muted">Created Websites using HTML, CSS, and JavaScript.</h5>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-title">Web Developer</h5>
+                        <h6 class="card-bottom">Uptech Sol</h6>
+                        <h5 class="card-subtitle mb-2 text-muted">Aug, 2020 – Feb, 2021</h5>
+                        <h5 class="card-subtitle mb-2 text-muted">Worked as a full stack developer. Created and integrated APIs. Also created pixel perfect templates.</h5>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-title">Web Developer intern</h5>
+                        <h6 class="card-bottom">iPlex</h6>
+                        <h5 class="card-subtitle mb-2 text-muted">Jun, 2019 – Aug, 2019</h5>
+                        <h5 class="card-subtitle mb-2 text-muted">Learned working on HTML, CSS, and JavaScript.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------- CONTACT SECTION -------------->
+    <section class="contact right" id="contact">
+        <div class="contact-row row">
+            <div class="contact-content right-content col-xl-4 col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                <div class="contact-heading">
+                    <h2>Contact</h2>
+                </div>
+                <div class="phone-card">
+                    <div class="card">
+                        <h5 class="card-title">Phone</h5>
+                        <h5 class="card-bottom">+92 332 5259507</h5>
+                    </div>
+                </div>
+                <div class="email-card">
+                    <div class="card">
+                        <h5 class="card-title">Email</h5>
+                        <h5 class="card-bottom">h.waheed96@gmail.com</h5>
+                    </div>
+                </div>
+                <div class="address-card">
+                    <div class="card">
+                        <h5 class="card-title">Address</h5>
+                        <h5 class="card-bottom">Islamabad, Pakistan</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-content col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <div class="discussion-card col-xl-8 col-lg-12 col-md-8 col-sm-12">
+                    <div class="card">
+                        <h3 class="card-title">Discuss Project</h5>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputName"
+                                        aria-describedby="int2" placeholder="Enter name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputEmail"
+                                        aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" id="exampleInputNumber"
+                                        aria-describedby="mobileNumber" placeholder="+92 3XX XXXXXXX">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn">Submit</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // NAVBAR ANCHOR TAG
+            $(function () {
+                $('a[href*="#"]:not([href="#"])').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//,
+                        '') && location
+                        .hostname ==
+                        this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) +
+                        ']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+
+            // FILTER CATEGORIES
+
+            $("#searchInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#searchFilterDiv div.CompanyDirectoryItem").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+                if ($('#searchFilterDiv div.CompanyDirectoryItem:visible').length === 0) {
+                    $('.error').show();
+                } else {
+                    $('.error').hide();
+                }
+            });
+
+
+
+            $(".filter-button").on("click", function () {
+
+                var selectItem = $(this).data('category');
+                filter(selectItem);
+            });
+
+
+            function filter(e) {
+                var regex = new RegExp('\\b\\w*' + e + '\\w*\\b');
+                $('.CompanyDirectoryItem').hide().filter(function () {
+                    return regex.test($(this).data('name'))
+                }).show();
+
+                if ($('.CompanyDirectoryItem:visible').length === 0) {
+                    $('.error').show();
+                } else {
+                    $('.error').hide();
+                }
+            }
+
+
+            $('.box-item').on('click', function () {
+                $('.box-item').removeClass('selected');
+                $(this).addClass('selected');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
